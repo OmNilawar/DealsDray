@@ -43,3 +43,61 @@ Before you begin, ensure you have met the following requirements:
 git clone https://github.com/OmNilawar/DealsDray.git
 cd DealsDray
 ```
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+```
+
+### Start Backend Server
+
+```bash
+npm run dev
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+```
+
+### Start Frontend 
+
+```bash
+npm run dev
+```
+
+
+## API Endpoints
+
+### Authentication
+- `POST /api/auth/login` - Authenticates the admin and generates a JWT token.
+
+### Admin Login Credentials
+
+Use the following credentials to log in as an admin:
+
+- **Email**: dummyadmin@gmail.com
+- **Password**: admin@123
+
+### Employee Operations
+- `GET /api/employee/fetch` - Fetch all employee records.
+- `POST /api/employee/add` - Add a new employee.
+- `PUT /api/employee/edit/:id` - Edit an existing employee by ID.
+- `DELETE /api/employee/delete/:id` - Delete an employee by ID.
+
+## Screenshots
+
+Here are some screenshots of the app in action:
+
+- [LoginPage](https://ibb.co/p4LKNDd)
+- [AdminPage](https://ibb.co/3CkWGqL)
+
+## Contact
+
+For any questions or issues, please reach out to me at:
+
+- Email: omkarnilawar9@gmail.com
