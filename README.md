@@ -74,7 +74,7 @@ npm run dev
 ## API Endpoints
 
 ### Authentication
-- `POST /api/auth/login` - Authenticates the admin and generates a JWT token.
+- `POST /api/admin/login` - Authenticates the admin and generates a JWT token.
 
 ### Admin Login Credentials
 
